@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);header {
+  background-image: url("https://pbs.twimg.com/media/Ehpc-cTUMAAJr_v?format=jpg&name=large");
+}
+
+.action {
+  display: flex;
+  padding: 0.5rem;
+}
+
+#delete {
+  background-color: transparent;
+  border: none;
+}
+
+#delete i:hover {
+  color: red;
+}
+
