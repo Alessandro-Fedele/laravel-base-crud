@@ -37,7 +37,7 @@
 
             <div class="form-group mb-3">
                 <label>Description</label>
-                <textarea class="form-control" name="description" id="description" rows="3">{{$comic->description}}</textarea>
+                <textarea class="form-control" name="description" id="description" rows="3" value="{{$comic->description}}">{{$comic->description}}</textarea>
                 <small class="form-text text-muted">Change description</small>
             </div>
 
